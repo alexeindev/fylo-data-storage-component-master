@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <section class="action-wrapper">
-      <img class="action-wrapper-logo" src="./images/logo.svg" alt="fylo-logo">
-      <div class="action-buttons">
-        <button>
-        <img src="./images/icon-document.svg" alt="icon-document">
-        </button>
-        <button>
-        <img src="./images/icon-folder.svg" alt="icon-folder">
-        </button>
-        <button>
-        <img src="./images/icon-upload.svg" alt="icon-upload">
-        </button>
-      </div>
-    </section>
-    <section class="storage">
-      <h1>You’ve used <span>815 GB</span>  of your storage</h1>
-      
-      <div class="progress-bar">
-        <span class="progress-bar-fill"></span>
-      </div>
+    <title>Frontend Mentor | Fylo data storage component</title>
 
-    
-      <div class="space">
-        <p>0 GB</p>
-        <p>1000 GB</p>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="action-wrapper">
+        <img
+          class="action-wrapper-logo"
+          src="./images/logo.svg"
+          alt="fylo-logo"
+        />
+        <div class="action-buttons">
+          <button>
+            <img src="./images/icon-document.svg" alt="icon-document" />
+          </button>
+          <button>
+            <img src="./images/icon-folder.svg" alt="icon-folder" />
+          </button>
+          <button>
+            <img src="./images/icon-upload.svg" alt="icon-upload" />
+          </button>
+        </div>
+      </section>
+      <section class="storage">
+        <h1>You’ve used <span>815 GB</span> of your storage</h1>
+
+        <div class="progress-bar">
+          <span class="progress-bar-fill"></span>
+        </div>
+
+        <div class="space">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+
+        <div class="storage-left">
+          <p>185 <span>GB Left</span></p>
+        </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandra López Ocampo</a>.
       </div>
-      
-      <div class="storage-left">
-      <p>185 <span>GB Left</span> </p>
-      </div>
-    </section>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Alejandra López Ocampo</a>.
     </div>
-  </div>
- 
-</body>
+  </body>
 </html>
